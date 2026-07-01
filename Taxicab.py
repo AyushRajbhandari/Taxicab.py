@@ -1,6 +1,6 @@
 # Author: Ayush Rajbhandari
 # GitHub username: AyushRajbhandari
-# Date: 2026-06-30
+# Date: 6-30-26
 # Description: Defines a Taxicab class that tracks current x and y coordinates,
 #              along with an odometer reading that says the total distance traveled.
 
@@ -20,11 +20,11 @@ class Taxicab:
         self._odometer = 0
 
     def get_x_coord(self):
-        """Returns the current x-coordinate of the Taxicab."""
+        """ Returns the current x-coordinate of the Taxicab."""
         return self._x_coord
 
     def get_y_coord(self):
-        """Returns the current y-coordinate of the Taxicab."""
+        """ Returns the current y-coordinate of the Taxicab."""
         return self._y_coord
 
     def get_odometer(self):
